@@ -16,7 +16,7 @@ public class BolsaControllers {
         bolsas.add(new Bolsa("Ana", "M", 100));
         bolsas.add(new Bolsa("Luna", "M", 110));
         bolsas.add(new Bolsa("Crystal", "P", 130));
-        bolsas.add(new Bolsa("Sol", "P", 150));
+        bolsas.add(new Bolsa("Sol", "M", 150));
     }
     @GetMapping
     public String getBolsa(Model model) {
